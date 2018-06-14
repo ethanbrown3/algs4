@@ -1,4 +1,6 @@
-# Approach
+# Assignment 1 - Percolation
+
+## Approach
 Use WeightedQuickUnionFindUF to keep track of which sites are connected
 There are 5 different statuses that aren't mutually exclusive that a site could have. For example a site could be both OPEN and FULL or connected to TOP and BOTTOM.
 We will use a bit mask to keep track of these statuses for a site. 
