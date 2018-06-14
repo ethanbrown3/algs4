@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/java,eclipse
-
+## Test Data ##
+algs4-data/
 ### Eclipse ###
 
 .metadata
